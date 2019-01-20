@@ -1,0 +1,114 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.retorno{
+  display:inline-block;
+	padding:15px;
+	background:#024959;
+	font-size:15px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+  border-radius: 25px !important
+
+}
+
+#colores{
+	background-color: #ACB3B8;
+	height: 110px;
+	margin-top: 170px;
+	position: fixed;
+	width: 40px;
+  z-index: 100;
+
+}
+
+.color1{
+	background-color: #234E5A;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 30px;
+  cursor:pointer;
+	border-radius:5px;
+
+}
+.color2{
+	background-color: #444;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 30px;
+	border-radius:5px;
+  cursor:pointer;
+
+}
+.color3{
+	background-color: #005f8e;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 30px;
+	border-radius:5px;
+  cursor:pointer;
+
+}
